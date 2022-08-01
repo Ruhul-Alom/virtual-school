@@ -1,0 +1,41 @@
+.accrodinContainer{
+    box-sizing: border-box;
+    padding: 25px;
+    width: 100%;
+    height: 80vh;
+    background-color:blue;;
+}
+.FAQTitle{
+    padding:1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.faqConatiner{
+   
+    display: grid;
+    
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.faq{
+    width: 175%;
+    border: 2px solid red;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+
+}
+.question{
+    font-size: 1rem;
+    line-height: 2.2;
+}
+.answer{
+    display: block;
+
+}
+.plusIcon{
+    font-size: 1.2rem;
+    align-self: flex-start;
+}

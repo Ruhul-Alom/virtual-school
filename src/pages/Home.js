@@ -4,6 +4,7 @@ import Header from '../components/header/Header';
 import Navbar from '../components/navbar/Navbar'
 import Catagories from '../components/catagorySection/Catagories';
 import Courses from '../components/courses/Courses';
+import Accrodin from '../components/questionAnswer/Accrodin';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <Header/>
         <Catagories/>
         <Courses/>
+        <Accrodin/>
     </div>
   )
 }
